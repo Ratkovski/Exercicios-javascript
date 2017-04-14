@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Exercicio 7</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+
+    <footer>
+        <script type="text/javascript">
+            /* A saida deve ser o resultado da funçao, onde um parametro equivale a um dia da semana
+             * E retorna o nome deste dia
+             * Ex: Domingo = 1, Segunda-Feira = 2, Terça-Feira = 3, etc...
+             * 
+             * Para este exercicio estar completo, a funçao deve possuir as verificaçoes para os 7 dias existentes na semana
+             * e mais uma verificaçao de 'Dia Inexistente' para um valor fora dos numeros entre 1 a 7
+             * 
+            */ 
+            function dia_da_semana(dia){
+                if(dia == 1){
+                    document.write("Domingo");
+                } else if(dia == 2){
+                    document.write("Segunda-Feira");
+                } else if(dia == 3){
+                    document.write("Terça-Feira");
+                }
+                  else if(dia == 4){
+                    document.write("Quarta-Feira");
+                
+                 } else if(dia == 5){
+                    document.write("Quinta-Feira");
+                 } else if(dia == 6){
+                    document.write("Sexta-Feira");
+                 } else if(dia == 7){
+                    document.write("Sabado");
+                } else {
+                    document.write("Dia Inesistete");
+                
+                }
+            }
+              
+              
+            
+            dia_da_semana(4);
+        </script>
+    </footer>
+</html>
+    </body>
